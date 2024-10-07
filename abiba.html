@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASL Converter</title>
+    <link rel="stylesheet" href="abiba.css"> <!-- Your external CSS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.110.0/examples/js/loaders/GLTFLoader.js"></script>    
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Left Section -->
+        <div class="left-container">
+            <div class="animation-part" id="animation-part">
+                <!-- Animation part will go here -->
+            </div>
+            <div class="footer">
+                <button class="mic">Mic</button>
+                <input type="text" class="created-text" value="Your translated text" readonly>
+            </div>
+        </div>
+
+        <!-- Right Section - Info -->
+        <div class="right-container">
+            <div class="info-section">
+                <div class="info-title">ASL Converter Overview</div>
+                <div class="info-content">
+                    <p>The ASL Converter is an innovative application designed to facilitate communication through American Sign Language (ASL) by converting spoken language into visual hand gestures. Using advanced speech recognition technology, the program captures audio input and transcribes it into text, which is then animated into realistic 3D hand gestures.</p>
+                    <p>The application features:</p>
+                    <ul>
+                        <li><strong>Real-time Translation:</strong> Users can speak naturally, and the program instantly converts audio into corresponding ASL animations.</li>
+                        <li><strong>User-Friendly Interface:</strong> The intuitive design allows for seamless interaction, making it accessible for all users.</li>
+                        <li><strong>Customizable Animations:</strong> Users can view and modify the hand gestures to better suit their needs.</li>
+                    </ul>
+                    <p>By bridging the gap between spoken language and ASL, this tool aims to enhance communication for the deaf and hard-of-hearing community.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="abiba.js"></script> <!-- Link to the external JS file -->
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #07090ae8;
+}
+
+/* Wrapper to center the whole content */
+.wrapper {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 15px; 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Left section */
+.left-container {
+    width: 65%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #3a3a3a;
+    box-sizing: border-box;
+    border-radius: 15px 0 0 15px; 
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.05); 
+}
+
+/* Right section */
+.right-container {
+    width: 35%; 
+    padding: 10px;
+    background-color: #5960E7;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 0 15px 15px 0;
+    overflow-y: auto; 
+}
+
+/* Info section */
+
+.info-header {
+    background-color: #4a4a4a; /* Darker background for the header */
+    color: white; /* Text color */
+    padding: 15px; /* Padding around the header */
+    border-radius: 10px 10px 0 0; /* Rounded corners on the top */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    text-align: center; /* Center the text */
+    overflow-y: auto;
+}
+
+.info-title {
+    font-size: 22px; /* Larger font size for the title */
+    margin: 0; /* Remove default margin */
+    font-weight: bold; /* Make the title bold */
+}
+
+.info-content {
+    padding: 15px; /* Add some padding for better readability */
+    color: #ffffff; /* Text color for better readability */
+    font-size: 14px; /* Set font size */
+    line-height: 1.6; /* Increase line height for readability */
+    overflow-y: auto; /* Allow scrolling if content exceeds height */
+}
+
+/* Existing styles for other sections remain unchanged */
+
+
+/* Animation part */
+.animation-part {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    height: 70%; 
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Button styling */
+button {
+    flex-grow: 1; 
+    height: 30px; 
+    font-size: 16px;
+    margin: 0 5px;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    border: 3px solid; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+/* Mic button styling */
+.mic {
+    max-width: 15%; 
+    height: 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; 
+    margin: 0 5px;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #eef211e0;
+    border: 3px solid; 
+    cursor: pointer; 
+}
+
+/* Textbox styling */
+.created-text {
+    flex-grow: 1; 
+    background-color: #ffffffe0;
+    padding: 10px;
+    border: 3px solid #000000; 
+    border-radius: 10px; 
+    white-space: pre-wrap; 
+    overflow: auto; 
+    margin-left: 10px; 
+    height: 30px; 
+}
